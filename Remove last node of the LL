@@ -1,0 +1,26 @@
+Function RemovefromLast ()
+{
+//LIST IS EMPTY
+if (head == NULL){
+cout<<"LL IS EMPTY";
+return NULL;
+}
+// LIST CONTAIN A SINGLE NODE . DELETE IT .
+if(head.next == NULL)
+{
+newNode = head;
+head = head.next;
+delete newNode
+return head;
+}
+
+tail = head.next;
+prev = head;
+while(tail.next ! = NULL){
+prev = tail;
+tail = tail.next;
+}
+prev.next = NULL;
+delete tail
+return head;
+}
