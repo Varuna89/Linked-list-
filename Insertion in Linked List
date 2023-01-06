@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Node{
+public :
+int data;
+Node* next;
+Node (int data)
+{
+this -> data = data;
+this -> next = Null;
+}
+};
+// INSERT AT THE FRONT OF THE LINKED LIST 
+function insertatfront(x){
+newNode.data = x;
+newNode.next = NULL;
+if(head ==NULL){
+this -> data = newNode.data;  
+this -> next = NULL;
+  OR
+head = newNode;
+ return head;
+}
+else 
+  newNode.nexnt = head;
+  head = newNode;
+return head;
+}
+// INSERT AT THE END OF THE LINKED LIST 
+function insertatend(x){
+newNode.data = x;
+newNode.next = NULL;
+
+if(head == NULL){
+head = newNode;
+ return head;
+}
+else
+{
+tail.next = newNode;
+newNode = tail;
+}
+ }
+
+
