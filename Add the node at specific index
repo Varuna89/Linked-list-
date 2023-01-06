@@ -1,0 +1,17 @@
+Function insertAtIndex (index , x){
+newNode.data = x;
+newNode.next = NULL;
+if(index == 0 ){
+insertAtfront(x);
+}
+else if(index<0){
+cout<<"INVALID INDEX";
+}
+else {
+count = 0;
+position_node = head;
+while(count<index-1){
+count = count + 1;
+position_node = position_node_next;
+ }
+}
