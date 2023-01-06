@@ -10,10 +10,7 @@
         prev = curr;
         curr = next;
      }
-     Node* temp = head;
-     head = tail;
-     tail = temp;
-        
+    
   }
     
 
